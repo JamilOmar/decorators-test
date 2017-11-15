@@ -1,0 +1,30 @@
+{
+  "name": "decorators-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ls-facility": "https://github.com/LabShare/facility",
+    "lodash": "^4.17.4",
+    "q": "^1.5.1",
+    "reflect-metadata": "^0.1.10",
+    "url-join": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.82",
+    "@types/node": "^8.0.50",
+    "@types/q": "^1.0.6",
+    "@types/reflect-metadata": "0.0.5",
+    "@types/url-join": "^0.8.2",
+    "typescript": "^2.5.2",
+    "typings": "^2.1.1"
+  }
+}

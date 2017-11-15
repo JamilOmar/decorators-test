@@ -1,0 +1,20 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "declaration": true,
+      "sourceMap": true,
+      "watch": true,
+      "outDir": "./dist",
+      "strict": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "noImplicitThis": false
+    },
+    "exclude": [
+      "dist",
+      "docs",
+      "run"
+  ]
+  }
